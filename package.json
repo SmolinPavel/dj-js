@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "keywords": [
     "music",
@@ -17,6 +18,10 @@
     "name": "Pavel Smolin",
     "email": "isingwithaz@gmail.com",
     "url": "https://github.com/SmolinPavel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SmolinPavel/dj-js.git"
   },
   "license": "ISC",
   "devDependencies": {
