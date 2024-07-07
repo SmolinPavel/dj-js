@@ -1,0 +1,26 @@
+{
+  "name": "dj-js",
+  "version": "1.0.0",
+  "description": "A module to play notes and melodies in the browser and calculate musical note frequencies",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "music",
+    "frequencies",
+    "notes",
+    "play"
+  ],
+  "author": {
+    "name": "Pavel Smolin",
+    "email": "isingwithaz@gmail.com",
+    "url": "https://github.com/SmolinPavel"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "typescript": "^5.5.3"
+  }
+}
