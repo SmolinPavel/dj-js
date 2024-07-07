@@ -1,5 +1,5 @@
 {
-  "name": "dj-js",
+  "name": "browser-dj-js",
   "version": "1.0.0",
   "description": "A module to play notes and melodies in the browser and calculate musical note frequencies",
   "main": "dist/index.js",
