@@ -88,8 +88,13 @@ Here is a complete example that demonstrates how to use playNote and playMelody:
 ```typescript 
 import { playNote, playMelody } from 'browser-dj-js';
 
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+const AudioContext = window.AudioContext || window.webkitAudioContext;
+const audioContext = new AudioContext();
+
 // Play a single note (A4 for 1 second)
-playNote({
+playNote(audioContext, {
     frequency: 440,
     duration: 1
 });
@@ -102,7 +107,7 @@ const melody = [
     { frequency: 440, duration: 1 },    // A4
 ];
 
-playMelody(melody);
+playMelody(audioContext, melody);
 ```
 
 ## Contributing
